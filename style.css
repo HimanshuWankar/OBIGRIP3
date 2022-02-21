@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 2rem;
+    padding: 0rem;
+}
+
+
+.link-deco{
+    text-decoration: none;
+    color: white;
+ 
+}
+.link-deco a{
+    text-decoration: none;
+    color: orangered;
+ 
+}
+
+
+
+.header {
+    padding: 0rem 0rem 2rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1000px;
+    width: 100%;
+
+}
+
+.heading {
+    font-size: 4rem;
+    /* float: left;
+ */
+}
+
+.add-list {
+    /* float: right; */
+    font-size: 2.5rem;
+}
+
+.icon-style {
+    color: orangered;
+    cursor: pointer;
+}
+
+.boxes {
+ 
+    padding: 3rem 0rem 4rem 0rem;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    min-height: 380px;
+    width: 250px;
+    border: 2px solid orangered;
+    border-radius: 0.5rem;
+    margin: 3rem;
+    box-shadow: 10px 10px 10px #0a0a0a29;
+
+}
+
+.subhead {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+
+}
+
+.completed {
+    text-decoration: line-through;
+    font-weight: bold;
+    text-align: right;
+    padding: 20px;
+    color: orangered;
+}
+
+.checkbox {
+    text-align: left;
+
+}
+
+.mainheading {
+    font-weight: 1rem
+}
+
+.container {
+    text-align: center;
+
+}
+
+.triptoparis {
+    font-size: 4rem;
+    font-weight: 900;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    position: relative;
+}
+
+.back-opt {
+    padding: 25px 25px 25px 0;
+    /* float: right; */
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box-main {
+
+    height: 400px;
+    width: 400px;
+    border: 2px solid olivedrab;
+    border-radius: 0.5rem;
+    margin: auto;
+    box-shadow: 10px 10px 10px #0a0a0a29;
+    text-align: center;
+    margin: auto;
+}
+
+.completed2 {
+    text-decoration: line-through;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    color: orangered;
+}
+
+.icon-style-2 {
+    color: orangered;
+    cursor: pointer;
+    margin-top: 8rem;
+    margin-left: 20rem;
+    font-size: 2.5rem;
+}
+
+.box-item-add {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    width: 450px;
+    height: 220px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 10px #0a0a0a29;
+    border: 1px solid #e74c3c;
+    border-radius: 10px;
+    margin: auto;
+    padding: 1rem;
+    backdrop-filter: blur(5px);
+}
+
+.subheading {
+    text-align: center;
+    color: orangered;
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: 600;
+
+}
+
+.new-item-input {
+    margin: auto;
+    text-align: center;
+    height: 50px;
+    width: 300px;
+}
+
+.input-box {
+    margin-top: 1rem;
+    height: 40px;
+    width: 300px;
+    box-shadow: 5px 5px 5px #0a0a0a29;
+    border: 1px solid #e74c3c;
+    border-radius: 0.5rem;
+}
+
+.add-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: orangered;
+    border-radius: 1rem;
+    color: white;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.blur {
+    filter: blur(8px);
+}
+
+.before-after-line:before {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 3px;
+    background: #e74c3c;
+    left: 20%;
+    top: 50%;
+    position: absolute;
+}
+
+.before-after-line:after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 3px;
+    background: #e74c3c;
+    right: 20%;
+    top: 50%;
+    position: absolute;
+}
+
+.page-change{
+   
+    margin: auto;
+    padding: 0.5rem 3rem;
+    text-align: center;
+    background-color: chocolate;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: .75rem;
+    display: block;
+    width: 10vw;
+    position: fixed;
+    bottom: 10%;
+    right: 0;
+    left: 0;
+    transition: background-color 1s;
+}
+
+.page-change:hover{
+    background-color:white ;
+    border: 2px solid chocolate;
+    color:chocolate;
+    
+}
+.tasklistitem{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.trip-flex-mobile{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
+
+.aiway{
+    text-align: center; margin-top:1rem;margin-bottom: 0;
+}
+.list-styling{
+    list-style-type: none;
+}
+
+.close{
+    margin-left: 1rem;
+}
+.home-text{
+   font-size: 1.5rem;
+   text-align: center;
+   margin: auto;
+}
+@media screen and (min-width: 320px) and (max-width: 800px) {
+
+
+    body {
+        font-family: 'Raleway', sans-serif;
+        margin: 1rem;
+        padding: 0rem;
+    }
+
+.display-none{
+    display: none;
+}
+.list-styling{
+    list-style-type: none;
+}
+
+.tasklistitem{
+    font-size: 1.5rem;
+    text-align: center;
+    display: none;
+}
+.boxes {
+    padding: 0rem;
+    display: flex;
+    margin: auto;
+flex-direction: column;
+    width: 100%;
+  row-gap: 0;
+    
+}
+
+.boxes i{
+    display: none;
+}
+
+.single-style div{    
+    min-height: 350px;
+    height: 350px;    
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.single-style{
+   margin: auto; 
+}
+.single-style div .tasklistitem{    
+ display: block;
+ 
+}
+
+
+
+
+.box {
+    max-height: 80px;
+    min-height: 80px;
+    height: 80px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.subhead {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+
+.heading {
+    font-size: 2.5rem;
+    /* float: left;
+ */
+}
+
+.add-list {
+    /* float: right; */
+    font-size: 2.5rem;
+}
+
+.box-item-add {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    width: 328px;
+    height: fit-content;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 10px #0a0a0a29;
+    border: 1px solid #e74c3c;
+    border-radius: 10px;
+    margin: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    backdrop-filter: blur(5px);
+    text-align: center;
+   
+}
+
+.new-item-input {
+    margin: auto;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+}
+
+.input-box {
+    margin-top: 1rem;
+    height: 40px;
+    width: 200px;
+    box-shadow: 5px 5px 5px #0a0a0a29;
+    border: 1px solid #e74c3c;
+    border-radius: 0.5rem;
+}
+
+.add-btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: orangered;
+    border-radius: 1rem;
+    color: white;
+    align-items: center;
+    margin: 1rem;
+    margin-bottom: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.trip-flex-mobile{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+   
+}
+
+.before-after-line:before {
+    display: none;
+}
+
+.before-after-line:after {
+    display: none;
+}
+
+.triptoparis {
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0;
+    width: fit-content;
+    
+    position: relative;
+}
+.box-main {
+
+    height: 300px;
+    width: 300px;
+    border: 2px solid olivedrab;
+    border-radius: 0.5rem;
+    margin: auto;
+    box-shadow: 10px 10px 10px #0a0a0a29;
+    text-align: center;
+    
+}
+
+.icon-style-2 {
+    color: orangered;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    font-size: 2.5rem;
+}
+
+.subhead {
+    text-align: center;
+}
+.aiway{
+    margin-top:0;
+}
+.back-text-hide{
+    display: none;
+}
+}
